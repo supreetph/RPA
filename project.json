@@ -1,27 +1,14 @@
 {
-  "name": "WorkSpaces",
-  "description": "Blank Process",
+  "name": "ExcelDemo",
+  "description": "Blank Project",
   "main": "Main.xaml",
-  "dependencies": {
-    "UiPath.UIAutomation.Activities": "[18.3.6848.19335]",
-    "UiPath.System.Activities": "[18.3.6848.19314]",
-    "UiPath.Excel.Activities": "[2.3.6682.26635]",
-    "UiPath.Mail.Activities": "[1.1.6562.21018]",
-    "UiPath.WebAPI.Activities": "[1.1.6479.13209]"
-  },
-  "schemaVersion": "3.2",
-  "studioVersion": "18.3.0.0",
-  "projectVersion": "1.0.0.0",
-  "runtimeOptions": {
-    "autoDispose": false,
-    "excludedLoggedData": [
-      "Private:*",
-      "*password*"
-    ]
-  },
-  "projectType": "Workflow",
-  "libraryOptions": {
-    "includeOriginalXaml": false,
-    "privateWorkflows": []
-  }
+  "dependencies": {},
+  "excludedData": [
+    "Private:*",
+    "*password*"
+  ],
+  "toolVersion": "18.2",
+  "projectVersion": "1.0.6845.27245",
+  "packOptions": {},
+  "runtimeOptions": {}
 }
